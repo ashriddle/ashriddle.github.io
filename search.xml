@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/2020/03/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>java环境变量的设置与vi的使用</title>
+    <url>/blog/2020/03/14/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%B8%8Evi%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>mac下如何配置java环境变量</p>
+<ul>
+<li>工具<ul>
+<li>vi文本编辑器</li>
+<li>打开vi</li>
+<li>vi /etc/profile （进入配置文件, 系统配置文件可能需要密码）</li>
+</ul>
+<ul>
+<li>注意：输入不能使用中文输入法。<br>vi分两个界面：<br>写入界面</li>
+<li>在文件的最下方开始拷入Java的环境变量。</li>
+</ul>
+</li>
+</ul>
+<p>JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home<br>CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>PATH= $JAVA_HOME/bin:$PATH:<br>export JAVA_HOME<br>export CLASSPATH</p>
+<p>export PATH</p>
+<ul>
+<li><p>写完后进入强制保存,:w!, 强制退出:q!;<br>命令界面</p>
+</li>
+<li><p>开启命令界面输入 ：</p>
+</li>
+<li><p>输入模式 i</p>
+</li>
+<li><p>命令行删除：1，d;</p>
+<ul>
+<li>mac目录查询java安装目录</li>
+<li>jdk在mac系统中，其实有两个路径，一个是默认的，一个是下载了的jdk，需要更新的。</li>
+</ul>
+</li>
+</ul>
+<p> +默认:where is java;</p>
+<ul>
+<li>输入：whereis java<ul>
+<li>结果：/usr/bin/java</li>
+<li>输入：ls -l  /usr/bin/java</li>
+<li>结果：完整地址： /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java</li>
+</ul>
+<ul>
+<li>下载的jdk，oracle，openjdk，位于/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home</li>
+<li></li>
+</ul>
+</li>
+</ul>
+]]></content>
+  </entry>
+</search>
