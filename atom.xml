@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog</title>
+  <title>ashriddle blog</title>
   
   
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/blog/"/>
+  <link href="http://ashriddle.github.io/"/>
   <updated>2020-03-15T05:46:00.685Z</updated>
-  <id>http://yoursite.com/blog/</id>
+  <id>http://ashriddle.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/blog/2020/03/15/hello-world/"/>
-    <id>http://yoursite.com/blog/2020/03/15/hello-world/</id>
+    <link href="http://ashriddle.github.io/2020/03/15/hello-world/"/>
+    <id>http://ashriddle.github.io/2020/03/15/hello-world/</id>
     <published>2020-03-15T05:46:00.685Z</published>
     <updated>2020-03-15T05:46:00.685Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>java环境变量的设置与vi的使用</title>
-    <link href="http://yoursite.com/blog/2020/03/14/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%B8%8Evi%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
-    <id>http://yoursite.com/blog/2020/03/14/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%B8%8Evi%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <link href="http://ashriddle.github.io/2020/03/14/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%B8%8Evi%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://ashriddle.github.io/2020/03/14/java%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E4%B8%8Evi%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2020-03-14T09:15:27.167Z</published>
     <updated>2020-03-14T14:11:56.549Z</updated>
     
